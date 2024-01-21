@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import "../styles/Action.css";
 import { useLogin, useProfiles } from "@lens-protocol/react-web";
@@ -10,7 +11,7 @@ import { LoginData } from "../utils/types";
 import { Button } from "@/components/ui/button";
 import { useWeb3Modal } from "@web3modal/wagmi/react";
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import { PenLine, Rows, Activity, LogIn, Unplug } from "lucide-react";
+import { PenLine, Rows, Activity, LogIn } from "lucide-react";
 import { network } from "@/utils/constants";
 import { ConnectKitButton } from 'connectkit'
 
@@ -61,7 +62,9 @@ function Profiles({
   setActiveSection,
   handle,
   executeLogin,
+  // @ts-ignore
   open,
+  // @ts-ignore
   disconnect,
 }) {
   const { data: profiles } = useProfiles({
