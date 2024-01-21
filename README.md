@@ -2,6 +2,8 @@
 # LensPay
 
 Welcome to LensPay, where the worlds of DeFi and social media converge through the innovative use of NFT access. Engage in exclusive discussions, share insights, and earn rewards in GHO tokens. LensPay leverages the Ethereum and Polygon blockchains, integrating seamlessly with Aave and Chainlink to offer a unique platform for enriched social interactions within the blockchain community.
+
+
 ![image](https://github.com/hsyndeniz/LensPay/assets/25802714/984bd293-3fe4-4670-aa0d-273ab1f1e9e8)
 
 
