@@ -13,7 +13,6 @@ import { lensHubAbi } from "../utils/lensHubAbi";
 import { serializeLink } from "../utils/serializeLink";
 import { PostCreatedEventFormatted } from "../utils/types";
 //import { ProfileId } from "@lens-protocol/metadata";
-import { useContractRead } from 'wagmi'
 import { writeContract } from "wagmi/actions";
 
 
