@@ -81,7 +81,7 @@ function Profiles({
   return (
     <div className="flex flex-1 justify-center items-center flex-col">
       <div className="mt-20">
-        <h1 className="text-5xl font-geist-black">LensPay Smart Post</h1>
+        <h1 className="text-5xl font-geist-black">GHO VOTE</h1>
       </div>
       <div className="mt-6 mb-6">
         <Button
@@ -90,7 +90,7 @@ function Profiles({
           className="px-10 mx-2"
         >
           <PenLine className="mr-2 h-4 w-4" />
-          Create Smart Post
+          GHO POST
         </Button>
         <Button
           variant={activeSection === "actions" ? "default" : "secondary"}
@@ -98,7 +98,7 @@ function Profiles({
           className="px-10 mx-2"
         >
           <Rows className="mr-2 h-4 w-4" />
-          View Smart Posts
+          VIEW POSTS
         </Button>
         <Button
           variant={activeSection === "events" ? "default" : "secondary"}
@@ -106,7 +106,7 @@ function Profiles({
           className="px-10 mx-2"
         >
           <Activity className="mr-2 h-4 w-4" />
-          Events
+          EVENTS
         </Button>
       </div>
       <Button
